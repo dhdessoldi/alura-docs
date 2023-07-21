@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const cliente = new MongoClient('inserir uri de conexão com o banco de dados no mongodb');
+const cliente = new MongoClient('mongodb+srv://dhdessoldi:admin123@cluster0.oparpnf.mongodb.net/?retryWrites=true&w=majority');
 
 let documentosColecao, usuariosColecao;
 
